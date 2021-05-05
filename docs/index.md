@@ -1,6 +1,11 @@
 # Bienvenidos a mi coleccion
 
-Esta es una collecion privada que funciona como manual 
+Esta es una collecion privada que funciona como manual
+
+## indice
+
+* [Guia de Markdown](guiaBasicaMarkDown.md)
+* [Guia de Mkdocs](manualMkdocs.md)
 
 ## Comandos basicos con MkDocs
 
