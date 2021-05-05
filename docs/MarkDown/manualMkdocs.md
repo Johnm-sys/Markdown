@@ -82,3 +82,11 @@ mkdocs build --help
 ```
 ayuda con un comando especifico, en este caso "build"
 
+9. Despliegue en Github: se pretende desplegar la documentación con el serivicio de paginas de github, para ello se guardará el codigo en la rama master y con el comando:
+```mkdocs
+mkdocs gh-deploy
+```
+este codigo copilará el proyecto y lo subira a la rama "gh-pages" y por defecto github esta rama la desplega, una vez hecho esto se pude ver el proyecto en el link:
+```https
+https://[nombre usuario].github.io/[nombre repositorio]/
+```

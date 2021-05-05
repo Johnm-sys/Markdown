@@ -1,9 +1,9 @@
 site_name: firstProyect   #name of proyect JOHN
 nav:
     - Inicio: index.md
-    - MarkDown: 
-        -MArkdown Comandos: MarkDown/guiaBasicaMarkDown.md
-        -MArkdown MkDocs: MarkDown/manualMkdocs.md
+    - MarkDown:
+        - markdown comandos: MarkDown/guiaBasicaMarkDown.md
+        - markdown Mkdocs: MarkDown/manualMkdocs.md
     # - Capítulo 2: capitulos/capitulo2.md
     # - Acerca de: acerca.md
     # - Resumen de opciones: opc/opciones.md
