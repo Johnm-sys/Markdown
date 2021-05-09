@@ -6,11 +6,11 @@
 * [Elementos.](#elementos)
 * [Atributos.](#atributos)
 * [Elementos de anidamiento.](#elementos-de-anidamiento)
-* [Elementos vacíos.](#elementos-vacíos)
-* [Anatomía de un documento HTML.](#anatomía-de-un-documento-HTML)
-* [Imágenes.](#imágenes)
+* [Elementos vacíos.](#elementos-vacios)
+* [Anatomía de un documento HTML.](#anatomia-de-un-documento-html)
+* [Imágenes.](#imagenes)
 * [Marcando textos.](#marcando-textos)
-* [Más información.](#más-información)
+* [Más información.](#mas-informacion)
 ___
 ## Conceptos:
 **HTML:** (Hyper Text Markup Language o lenguaje de marcado), se utitliza para estructurar una página web y su contenido.  
@@ -154,4 +154,4 @@ Ejemplo lista desordenada:
 > * Para más información ir a [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics).
 > * La información suminstrada es solo un resumen personal, esta es sacada y pertenece a [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics). 
 
-[Volver Arriba ↑](#Conceptos-de-HTML)
+[Volver Arriba ↑](#conceptos-de-html)
