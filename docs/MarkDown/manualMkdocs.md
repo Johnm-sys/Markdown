@@ -1,13 +1,13 @@
 
 
-## Lista de comandos para markDown  
+# Lista de comandos para markDown  
 ___
-
+## Algunos comandos
 1. mkdocs new nombre: siendo el "nombre" reemplazado por el nombre de nustro proyecto.  
     * Crea el archivo .yml: este contendra las variables de configuración
     * Crea una carpeta docs que contendra nuestros archivos de MarkDown
 2. Generar codigo html apartir de archivos .md (extension de markdown), nos situamos en consola junto al archivo .yml y ejecutamos:   
-```MarkDown 
+```mkdocs 
 mkdocs build
 ```
 nos crea una carpeta "site" por defecto con el contenido en html para subir al repositorio
