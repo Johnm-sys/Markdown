@@ -4,8 +4,9 @@ nav:
     - MarkDown:
         - markdown comandos: MarkDown/guiaBasicaMarkDown.md
         - markdown Mkdocs: MarkDown/manualMkdocs.md
-    # - Capítulo 2: capitulos/capitulo2.md
-    # - Acerca de: acerca.md
+    - Nevegadores y sitios web:
+        - Conceptos básicos: Navegadores y sitios web/00_Conceptos.md
+        - Conceptos HTML: Navegadores y sitios web/01_Conceptos_Html.md
     # - Resumen de opciones: opc/opciones.md
 theme: readthedocs
 site_dir: Markdown

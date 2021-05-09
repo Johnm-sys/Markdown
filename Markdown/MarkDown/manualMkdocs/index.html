@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>markdown Mkdocs - firstProyect</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "markdown Mkdocs";
+    var mkdocs_page_input_path = "MarkDown\\manualMkdocs.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> firstProyect</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Inicio</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">MarkDown</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../guiaBasicaMarkDown/">markdown comandos</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">markdown Mkdocs</a>
+    <ul class="current">
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">firstProyect</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>MarkDown &raquo;</li>
+        
+      
+    
+    <li>markdown Mkdocs</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="lista-de-comandos-para-markdown">Lista de comandos para markDown</h2>
+<hr />
+<ol>
+<li>mkdocs new nombre: siendo el "nombre" reemplazado por el nombre de nustro proyecto.  <ul>
+<li>Crea el archivo .yml: este contendra las variables de configuración</li>
+<li>Crea una carpeta docs que contendra nuestros archivos de MarkDown</li>
+</ul>
+</li>
+<li>Generar codigo html apartir de archivos .md (extension de markdown), nos situamos en consola junto al archivo .yml y ejecutamos:   </li>
+</ol>
+<pre><code class="language-MarkDown">mkdocs build
+</code></pre>
+<p>nos crea una carpeta "site" por defecto con el contenido en html para subir al repositorio</p>
+<pre><code class="language-MarkDown">mkdocs build --clean
+</code></pre>
+<p>nos crea una carpeta limpiando la anterior, se ejecuta si ya teniamos una anteriormente  </p>
+<ol>
+<li>Modo server: podremos visualizar cambios de nuestro contenido en vivo, para esto nos situamos en consola junto al archivo .yml, y ejecutamos:
+```markdown y mkdocs
+mkdocs serve</li>
+</ol>
+<pre><code>se genera un sitio web temporal y mkdocs quedara a la escucha, y cada vez que se modifiquen y guareden los cambios, la ventana del navegador se refrescara. Cerramos este modo con:
+```bash
+ctrl + c
+</code></pre>
+<ol>
+<li>Generar mas paginas con markdown: los nuevos archivos han de ser archivos de markdown, lo primero es definir estructura o organizacion de nuestros arhivos dentro de la carpeta "docs", ejemplo:</li>
+</ol>
+<pre><code class="language-dos">mkdocs.yml
+docs/index.md
+docs/capitulos/capitulo1.md
+docs/capitulos/capitulo2.md
+docs/anexos/anexo1.md
+site/
+</code></pre>
+<p>estos archivos seconvertiran automaticamente, pero es necesario agregarlos a la barra de navegación, para esto agregamos los archivos al archivo .yml, ejemplo:</p>
+<pre><code class="language-yml">site_name: Mi proyecto
+nav:
+    - Inicio: index.md
+    - Capítulo 1: capitulos/capitulo1.md
+    - Capítulo 2: capitulos/capitulo2.md
+    - Acerca de: acerca.md
+    - Resumen de opciones: opc/opciones.md
+</code></pre>
+<p>Este codigo agregara un enlace para ser encontrado cuando generemos el codigo.</p>
+<pre><code class="language-yml">site_name: Mi proyecto
+nav:
+    - Inicio: index.md
+    - Capítulos:
+        - Capítulo 1: capitulos/capitulo1.md
+        - Capítulo 2: capitulos/capitulo2.md
+    - Acerca de: acerca.md
+    - Resumen de opciones: opc/opciones.md
+</code></pre>
+<p>otro ejemplo, pero genera una opcion <strong>desplegable</strong></p>
+<ol>
+<li>
+<p>pagina principal: MkDocs buscara un archivo con el nombre "index.md" ó "readme.md", de estos dos tiene priorida el index</p>
+</li>
+<li>
+<p>Se puede escojer un tema: existen variedad de temas, el pordefecto es "mkdocs", pero se puede cambiar agregando theme en el .yml, y nos quedaria asi:</p>
+</li>
+</ol>
+<pre><code class="language-yml">site_name: Mi proyecto
+nav:
+    - Inicio: index.md
+    - Acerca de: acerca.md
+    - Resumen de opciones: opciones.md
+theme: mkdocs
+</code></pre>
+<p>aqui vemos el tema por defecto, pero mkdocs trae otro "readthedocs"</p>
+<ol>
+<li>
+<p>podemos tambien cambiar el favicon, agregando una carpeta "img" junto al archivo .yml, y agregamos nuetsra imagen con el nombre "favicon" de extencion .ico</p>
+</li>
+<li>
+<p>mkdocs tiene una ayuda, ejecutando:</p>
+</li>
+</ol>
+<pre><code class="language-mkdocs">mkdocs --help
+</code></pre>
+<p>no muestra los comandos de mkdocs</p>
+<pre><code class="language-mkdocs">mkdocs build --help
+</code></pre>
+<p>ayuda con un comando especifico, en este caso "build"</p>
+<ol>
+<li>Despliegue en Github: se pretende desplegar la documentación con el serivicio de paginas de github, para ello se guardará el codigo en la rama master y con el comando:</li>
+</ol>
+<pre><code class="language-mkdocs">mkdocs gh-deploy
+</code></pre>
+<p>este codigo copilará el proyecto y lo subira a la rama "gh-pages" y por defecto github esta rama la desplega, una vez hecho esto se pude ver el proyecto en el link:</p>
+<pre><code class="language-https">https://[nombre usuario].github.io/[nombre repositorio]/
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../guiaBasicaMarkDown/" class="btn btn-neutral" title="markdown comandos"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../guiaBasicaMarkDown/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
