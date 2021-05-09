@@ -2,15 +2,15 @@
 
 # Conceptos de HTML
 ## Indice
-* [Concepto.](#Conceptos)
-* [Elementos.](##Elementos)
+* [Concepto.](#conceptos)
+* [Elementos.](#elementos)
 * [Atributos.](#atributos)
-* [Elementos de anidamiento.](#Elementos-de-anidamiento)
-* [Elementos vacíos.](##Elementos-vacíos)
+* [Elementos de anidamiento.](#elementos-de-anidamiento)
+* [Elementos vacíos.](#elementos-vacíos)
 * [Anatomía de un documento HTML.](#anatomía-de-un-documento-HTML)
-* [Imágenes.](#Imágenes)
-* [Marcando textos.](#Marcando-textos)
-* [Más información.](#Más-información)
+* [Imágenes.](#imágenes)
+* [Marcando textos.](#marcando-textos)
+* [Más información.](#más-información)
 ___
 ## Conceptos:
 **HTML:** (Hyper Text Markup Language o lenguaje de marcado), se utitliza para estructurar una página web y su contenido.  
