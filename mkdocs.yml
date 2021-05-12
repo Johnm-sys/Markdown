@@ -1,12 +1,14 @@
-site_name: firstProyect   #name of proyect JOHN
+site_name: Documentación web general   #name of proyect JOHN
 nav:
     - Inicio: index.md
     - MarkDown:
-        - markdown comandos: MarkDown/guiaBasicaMarkDown.md
-        - markdown Mkdocs: MarkDown/manualMkdocs.md
+        - Markdown sintaxis: MarkDown/guiaBasicaMarkDown.md
+        - Markdown 'Mkdocs': MarkDown/manualMkdocs.md
     - Nevegadores y sitios web:
-        - Conceptos básicos: Navegadores y sitios web/00_Conceptos.md
-        - Conceptos HTML: Navegadores y sitios web/01_Conceptos_Html.md
+        - Conceptos básicos: NavegadoresYSitiosWeb/00_Conceptos.md
+        - Conceptos HTML: NavegadoresYSitiosWeb/01_Conceptos_Html.md
+    - Tecnologias de desarrollo web:
+        - JSON web token: TecnologiasDeDesarrollo/01_JWT.md
     # - Resumen de opciones: opc/opciones.md
 theme: readthedocs
 site_dir: Markdown
