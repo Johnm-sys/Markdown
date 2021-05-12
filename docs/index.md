@@ -4,8 +4,8 @@ Esta es una collecion privada que funciona como manual
 
 ## indice
 
-* [Guia de Markdown](guiaBasicaMarkDown.md)
-* [Guia de Mkdocs](manualMkdocs.md)
+* [Guía de Markdown](MarkDown/guiaBasicaMarkDown/)
+* [Guía de Mkdocs](MarkDown/manualMkdocs.md)
 ### Sobre Navegadores
 * [Conceptos web](00_Conceptos.md)
 * [Conceptos sobre HTML](01_Conceptos_Html.md)
