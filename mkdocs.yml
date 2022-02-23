@@ -9,6 +9,8 @@ nav:
         - Conceptos HTML: NavegadoresYSitiosWeb/01_Conceptos_Html.md
     - Tecnologias de desarrollo web:
         - JSON web token: TecnologiasDeDesarrollo/01_JWT.md
+    - Typescript:
+        - Introducción a typescript: typescript/01_introducion.md
     # - Resumen de opciones: opc/opciones.md
 theme: readthedocs
 site_dir: Markdown

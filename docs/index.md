@@ -12,6 +12,9 @@ Esta es una collecion privada que funciona como manual
 ### Tecnogias de desarrollo
 * [Json Web Token](01_JWT.md)
 
+### Typescript
+* [Intrducción a typescript](01_introducion.md)
+
 
 Este documento ha sido creado utilizando Mkdocs y esta en constante crecimiento...  
 

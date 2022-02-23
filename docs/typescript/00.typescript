@@ -1,0 +1,65 @@
+# Typescript
+
+## Qué es Typescript?   
+
+Typescript es un super set de Javascript que tiene extecion de características, tambien tiene algunas caracteristicas propias de typescrt.
+Microsof le da soporte de typescript.
+
+* Es un super set de Javascript.
+* Ofrece tipado extricto y flexible.
+* Mejora enormemente la legibilidad de código.
+* Nos permite usar características modernas.
+
+## Codigos:   
+
+Solo sabremos las diferencias entre typescript y javascript por su extención, el sigguiente codigo puede estar en archivo .ts o .js    
+
+```javascript
+let nombre  = 'Strider';
+let puntosVida = 95;
+let arma = 'Espada';
+```    
+
+El tipado nos ayuda a saber cómo funcnionan las cosas:   
+
+```javascript
+function calcularISV(producto) {
+
+    let total = 0;
+    productos.forEach(({ precio }) => total += precio);
+    return [precio, precio * 0,15];
+
+}
+```
+Aunque el código de javascript puede llegar a ser bastante sencillo la verdad es que no sabemos...   
+¿Qué tipo de datos son los productos?   
+¿Cómo luce un producto?   
+¿Qué propiedades debe tener un poducto?   
+
+```typescript
+function calcularISV(producto: Producto[]): [number, number] {
+
+    let total = 0;
+    productos.forEach(({ precio }) => total += precio);
+    return [precio, precio * 0,15];
+
+}
+```
+```javascript
+inteface Producto {
+    desc: string;
+    precio: number;
+}
+```
+
+Con typescript sabemos como luce un poducto utilizando una interface, y tabien sabremos que retorna un arreglo de números.
+Otra caraterística es que mejora la intellisense enormemente, que son la ayudaas de nuestro editor de código.
+
+## Por qué Angular usa typescript?
+
+* Para tener todos los beneficios de Typescript.
+* Se tiene una ayuda y un intellisense fuerte.
+* Tenemos  tipado estricto y errores en momento de escritura.
+* No permite la inyección de dependencias.
+
+[Volver arriba ↑](#markdowm)
